@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('tripo_convert_094d184e-48de-46b8-acf0-17b227c83425.STEP',
+    '2026-01-29T19:58:18',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2025',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#2 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #8 ) ) ;
+#3 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #10, 'design' ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = PRODUCT_CONTEXT ( 'NONE', #4, 'mechanical' ) ;
+#6 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #8, .NOT_KNOWN. ) ;
+#7 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #6, #3 ) ;
+#8 = PRODUCT ( 'tripo_convert_094d184e-48de-46b8-acf0-17b227c83425', 'tripo_convert_094d184e-48de-46b8-acf0-17b227c83425', '', ( #5 ) ) ;
+#9 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #10 ) ;
+#10 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#11 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #7 ) ;
+ENDSEC;
+END-ISO-10303-21;
